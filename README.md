@@ -1,5 +1,5 @@
 # tt-extractor
-A tool to extract data from your exported TikTok profile json file.
+A tool to extract data from your exported TikTok profile json data file.
 
 This project is covered by the [MIT License](https://github.com/philkasper/tt-extractor/blob/main/LICENSE)
 
