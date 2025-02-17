@@ -43,7 +43,7 @@ if __name__ == '__main__':
     print('\t****TIKTOK DATA EXTRACTOR****\n')
     print('This program will:\n')
     print('\t1.) Check for a user_data_tiktok.json file')
-    print('\t2.) Check the file and copies links to saved Favorites and Likes')
+    print('\t2.) Check the file and copy links to saved Favorites and Likes')
     print('\t3.) Write found links to Favorites and Likes text files\n\n')
 
     print('Notes:')
