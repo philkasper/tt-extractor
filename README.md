@@ -18,7 +18,7 @@ This project is covered by the [MIT License](https://github.com/philkasper/tt-ex
 1. Download and save [tt-extractor.py](https://github.com/philkasper/tt-extractor/blob/main/tt-extractor.py) to the same folder as the tiktok_user_data.json file
 2. Open the Command Prompt (Windows) or Terminal (Mac/Linux)
 3. Use the `cd` command to change to the same directory of the downloaded file in Step 1
-4. Execute the follwing command: `python3 tt-extractor.py'
+4. Execute the follwing command: `python3 tt-extractor.py`
 5. Follow the onscreen prompts in the Terminal/Command Prompt
 
 ## Known Limitations
