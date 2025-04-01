@@ -74,16 +74,16 @@ if __name__ == '__main__':
                     with open(filename,'r') as f: 
                         print('File "'+ filename + '" found. Processing data...\n')
                         data=json.load(f)
-                        if 'Favorite Videos' in dict.keys(data['Activity']):
+                        if 'Favorite Videos' in dict.keys(data['Your Activity']):
                             print('Favorites detected...')
-                            dataDict['Favorites'] = data['Activity']['Favorite Videos']['FavoriteVideoList']
-                        if 'Like List' in dict.keys(data['Activity']):
+                            dataDict['Favorites'] = data['Your Activity']['Favorite Videos']['FavoriteVideoList']
+                        if 'Like List' in dict.keys(data['Your Activity']):
                             print('Likes detected...')
-                            dataDict['Likes'] = data['Activity']['Like List']['ItemFavoriteList']
+                            dataDict['Likes'] = data['Your Activity']['Like List']['ItemFavoriteList']
                         f.close()
                         break
                 except FileNotFoundError:
-                    print('The file "' + filename + 'was not found.\n')
+                    print('The file "' + filename + ' was not found.\n')
                     
                     filename = input('Please enter the full filename (type "q" or "quit" to quit):')
                     if filename in ['q', 'Q', 'quit', 'Quit','QUIT']:
